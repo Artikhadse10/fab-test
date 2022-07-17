@@ -1,0 +1,115 @@
+.navbar-brand img{
+	width: 160px;
+	padding: 0 1em;
+}
+
+
+.navbar-brand{
+	margin-right: 0;
+}
+
+.navbar-nav{
+	align-items: center;
+}
+
+.navbar navbar-nav .nav-link{
+	color:#fff;
+	font-size: 20px;
+	padding: .5em 1em;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	    font-size: 20px;
+    padding: 0 20px 0 20px;
+}
+
+@media screen and (min-width: 992px){
+	.navbar-brand img{
+	width: 210px;
+	padding: 0 1em;
+}
+.navbar-brand{
+	margin-right: 0;
+}
+.navbar-expand-lg{
+	height: 100px;
+}
+}
+
+/*sidebar*/
+
+
+.nsidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+     background-color: black;
+  color: white;
+    transition: 0.4s;
+}
+
+.nsidebar-links {
+    font-size: 1.25em;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #F0F0F0;
+  color: black !important;
+  border-bottom: 1px solid black;
+}
+
+.dropdown-menu {
+    background-color: black;
+  color: white;
+  border: 1px solid wheat;
+
+}
+
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #ffffff26;
+}
+
+.my-container {
+    transition: 0.4s;
+}
+
+
+/* for navbar */
+
+.active-nav {
+    margin-left: 0;
+}
+
+
+/* for main section */
+
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+     background-color: black;
+  color: white;
+}
+
+#menu-btn:focus {
+    box-shadow: 0 0 0 0.25rem #7952b344;
+}
+
+.Signin{
+  background-color: black;
+  color: white;
+}
+
+.ModelSignin{
+	position: relative;
+	left: 45%;
+	background-color: black;
+  color: white;
+	
+}
